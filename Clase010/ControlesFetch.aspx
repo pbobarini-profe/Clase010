@@ -11,6 +11,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Inicio</asp:HyperLink>
             <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true" />
             <asp:Button ID="Button1" OnClientClick ="obtenerHora();return false;" runat="server" Text="Obtener hora con fetch" />
             <p id="resultado"></p>
